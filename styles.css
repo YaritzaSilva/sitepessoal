@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body,
+html{
+	margin:  0; 
+	padding: 0;
+	font-size:18px;
+}
+body{
+	background-color: rgba(172, 172, 172, 0.932);
+}
+a, a img{
+	text-decoration:none;
+	border:none;
+}
+img{
+	max-width:30%;
+	height:auto;
+    float:left;
+    padding-right:10px;
+    bottom:1px;
+}
+.principal{
+	width: 960px;
+	color: #444;
+	margin: 0 auto;
+	font-family:sans-serif;
+}
+.cabecalho, 
+.nome, 
+.menu{
+	width:100%;
+	display:block;
+	clear:both;
+}
+.cabecalho{
+	height:100px;
+}
+.nome-cabecalho{
+	float:left;
+}
+.nome-cabecalho a{
+	font-size:50px;
+	text-decoration:none;
+	color:#000;
+	display:block;
+	padding:20px;
+}
+.menu{
+	background:#0e0000;
+    position: relative;
+  color: #fff;
+  text-decoration: none; 
+}
+.menu ul li, 
+.menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu ul li{
+	display:inline-block;
+}
+.menu ul li a{
+	display:block;
+	color:#fff;
+	padding:13px 20px;
+}
+.corpo{
+	position:relative;
+	overflow:hidden;
+}
+.artigos{
+	float:left;
+    margin: 10px;
+}
+.artigos, .artigos:before{
+	width:70%;
+}
+.artigos:before{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	background:#fff;
+	z-index:-1;
+	content:'';
+}
+aside{
+	float:right;
+	width:30%;
+}
+aside{
+   content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+	right:0;
+    z-index: -1;
+    background: #f1f1f1;
+}
+.espacamento{
+	padding:20px;
+}
+button a{
+	background-color: rgba(207, 207, 207, 0.527);
+    color: rgb(27, 19, 8);
+    border-radius: 40px;
+    margin: 0 0 10px 0;
+    padding: 4px;
+    text-align: center;
+    min-width: 200px;
+	size: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgba(207, 207, 207, 0.527);
+  }
+  a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+  }
+.cantinho{
+	margin-left: 10%;
+}
+
+h1{
+	font-size: 56px;
+	font-family:  'Raleway', sans-serif;
+	color: rgb(27, 19, 8);
+}
+h2.subtitulo{
+    font-size: 30px;
+	color: rgb(27, 19, 8);
+	font-family: 'Montserrat', sans-serif;
+}
