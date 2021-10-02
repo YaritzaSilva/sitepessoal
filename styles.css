@@ -78,6 +78,7 @@ img{
 .artigos{
 	float:left;
     margin: 10px;
+	font-size: 25px;
 }
 .artigos, .artigos:before{
 	width:70%;
@@ -110,7 +111,7 @@ aside{
 button a{
 	background-color: rgba(207, 207, 207, 0.527);
     color: rgb(27, 19, 8);
-    border-radius: 40px;
+    border-radius: 60px;
     margin: 0 0 10px 0;
     padding: 4px;
     text-align: center;
